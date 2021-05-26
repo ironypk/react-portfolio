@@ -1,0 +1,30 @@
+.footer{}
+
+.footer__container{}
+
+.social{
+    width: 100%;
+    max-width: 400px;
+}
+
+.social__list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__item{
+}
+
+.social__link{}
+
+.social__link_wrapper{
+    width: 50px;
+    height: 50px;
+}
+
+.social__img{}
+
+.social__copyright{
+    font-weight: bold;
+}

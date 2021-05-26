@@ -1,0 +1,31 @@
+.about{
+    background-color: plum;
+}
+
+.about__container{
+    flex-direction: row;
+justify-content: space-around;
+}
+
+
+.about__info{
+font-weight: bold;
+}
+
+.about__photo_wrapper{
+    width:50px;
+    height: 100%;
+}
+
+.about__photo{
+    background-color: #999;
+}
+
+@media screen and (max-width: 480px) {
+    .about__container{
+        flex-direction: column;
+    }
+    .about__photo_wrapper{
+        width: 100%;
+    }
+}

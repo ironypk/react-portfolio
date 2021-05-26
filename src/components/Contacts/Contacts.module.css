@@ -1,0 +1,21 @@
+.contacts {
+    background-color: goldenrod;
+}
+
+.contacts__container {}
+
+.contacts__form{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contacts__form input{
+    margin-bottom: 5px;
+}
+
+.contacts__button{}
+
+.contacts__input{}
